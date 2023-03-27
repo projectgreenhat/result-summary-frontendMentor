@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(221, 100%, 96%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.wrapper {
+  box-shadow: 5px 5px 5px 0px #7b7f84;
+  display: flex;
+  flex-direction: row;
+  border-radius: 6%;
+}
+.visual {
+  /* padding: 3em; */
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(hsl(241, 51%, 55%), hsl(241, 67%, 46%));
+  text-align: center;
+  border-radius: 6%;
+}
+.detail {
+  width: auto;
+  height: auto;
+  background-color: hsl(221, 100%, 96%);
+  text-align: left;
+  /* box-shadow: 5px 5px 5px 0px #7b7f84; */
+  border-end-end-radius: 6%;
+}
+.score {
+  display: inline-block;
+  background-image: linear-gradient(hsl(241, 69%, 38%), hsl(241, 58%, 48%));
+  /* margin: auto; */
+  align-items: center;
+  width: 18vh;
+  height: 18vh;
+  border-radius: 50%;
+}
+.score:hover {
+  background-image: linear-gradient(hsl(240, 19%, 28%), hsl(240, 6%, 47%));
+}
+p {
+  color: hsl(241, 30%, 70%);
+  padding: 5px;
+  font-size: 0.8em;
+  text-align: center;
+}
+.bottom {
+  padding: 0 3.5em;
+  padding-bottom: 2.5em;
+  width: 13em;
+}
+.score p {
+  padding-top: 1.4em;
+}
+.visual span {
+  font-size: 3.4em;
+  color: hsl(221, 100%, 96%);
+  padding-top: 0.8em;
+  font-weight: 480;
+}
+h1 {
+  font-size: 1em;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsl(241, 100%, 89%);
+  padding: 1.3em 0;
+  font-weight: lighter;
+}
+.detail h1 {
+  color: hsl(224, 30%, 27%);
+  margin: 0em 1.5em;
+  padding: 1em 0 0.3em 0;
+}
+h2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  color: hsl(221, 100%, 96%);
+  padding-top: 1.1em;
+  padding-bottom: 0.7em;
+}
+h5 {
+  display: inline;
+  font-weight: 500;
+  padding-bottom: 0.3em;
+}
+.detail p {
+  display: inline-block;
+  color: hsl(241, 100%, 89%);
+}
+.card {
+  margin: 0.9em 1.5em;
+  /* padding: 0.5em; */
+  background-color: aquamarine;
+  border-radius: 14%;
+  width: 13em;
+}
+.card:hover {
+  box-shadow: 2px 2px 2px 0px #768f9b;
+}
+img {
+  float: left;
+}
+.detail div {
+  padding: 0.7em 0.2em;
+}
+.react h5 {
+  color: hsl(0, 100%, 67%);
+}
+.mem h5 {
+  color: hsl(39, 100%, 56%);
+}
+.ver h5 {
+  color: hsl(166, 100%, 37%);
+}
+.vis h5 {
+  color: hsl(234, 85%, 45%);
+}
+div .react {
+  background-color: hsla(0, 56%, 83%, 0.326);
+}
+div .mem {
+  background-color: hsla(41, 67%, 82%, 0.267);
+}
+div .ver {
+  background-color: hsla(161, 59%, 79%, 0.225);
+}
+div .vis {
+  background-color: hsla(240, 37%, 73%, 0.275);
+}
+.button {
+  margin: auto;
+  padding: 0.8em 4em;
+  font-size: 0.8em;
+  text-decoration: none;
+  width: 9.3em;
+  height: 3.3em;
+  border-width: 1px;
+  color: #fff;
+  border-color: hsl(225, 89%, 15%);
+  font-weight: bold;
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  border-bottom-left-radius: 1.25em;
+  border-bottom-right-radius: 1.25em;
+  text-shadow: 1px 1px 0px #2b2837;
+  background: hsl(224, 30%, 27%);
+}
+
+.button:hover {
+  background: hsl(241, 81%, 54%);
+}
+.continue {
+  text-align: center;
+}
